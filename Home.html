@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://livedemo00.template-help.com/wt_55434/ -->
+<html lang="en" class="wide wow-animation desktop landscape rd-navbar-static-linked"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="format-detection" content="telephone=no">
+	<script type="text/javascript" async="" src="./Home_files/ec.js"></script><script type="text/javascript" async="" src="./Home_files/analytics.js">
+	</script><script async="" src="./Home_files/gtm.js"></script><script type="text/javascript" async="" src="./Home_files/ga.js">
+	</script><script src="./Home_files/3ts2ksMwXvKRuG480KNifJ2_JNM.js"></script><script src="./Home_files/4o300efCt-CXoq1JEC-sVReFz48.js">
+	</script><link rel="icon" href="https://livedemo00.template-help.com/wt_55434/images/favicon.ico" type="image/x-icon">
+	<title>Home</title>
+
+	<link rel="stylesheet" href="./Home_files/bootstrap.css">
+	<link rel="stylesheet" href="./Home_files/fonts.css">
+	<link rel="stylesheet" href="./Home_files/style.css">
+	
+	<style>.ie-panel {
+		display: none;
+		background: #212121;
+		padding: 10px 0;
+		box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
+		clear: both;
+		text-align: center;
+		position: relative;
+		z-index: 1;
+	}
+
+	html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {
+		display: block;
+	}</style>
+<link rel="stylesheet" href="data:text/css;charset=utf-8;base64,Y2xvdWRmbGFyZS1hcHBbYXBwLWlkPSJhLWJldHRlci1icm93c2VyIl0gewogIGRpc3BsYXk6IGJsb2NrOwogIGJhY2tncm91bmQ6ICM0NTQ4NGQ7CiAgY29sb3I6ICNmZmY7CiAgbGluZS1oZWlnaHQ6IDEuNDU7CiAgcG9zaXRpb246IGZpeGVkOwogIHotaW5kZXg6IDkwMDAwMDAwOwogIHRvcDogMDsKICBsZWZ0OiAwOwogIHJpZ2h0OiAwOwogIHBhZGRpbmc6IC41ZW0gMWVtOwogIHRleHQtYWxpZ246IGNlbnRlcjsKICAtd2Via2l0LXVzZXItc2VsZWN0OiBub25lOwogICAgIC1tb3otdXNlci1zZWxlY3Q6IG5vbmU7CiAgICAgIC1tcy11c2VyLXNlbGVjdDogbm9uZTsKICAgICAgICAgIHVzZXItc2VsZWN0OiBub25lOwp9CgpjbG91ZGZsYXJlLWFwcFthcHAtaWQ9ImEtYmV0dGVyLWJyb3dzZXIiXVtkYXRhLXZpc2liaWxpdHk9ImhpZGRlbiJdIHsKICBkaXNwbGF5OiBub25lOwp9CgpjbG91ZGZsYXJlLWFwcFthcHAtaWQ9ImEtYmV0dGVyLWJyb3dzZXIiXSBjbG91ZGZsYXJlLWFwcC1tZXNzYWdlIHsKICBkaXNwbGF5OiBibG9jazsKfQoKY2xvdWRmbGFyZS1hcHBbYXBwLWlkPSJhLWJldHRlci1icm93c2VyIl0gYSB7CiAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7CiAgY29sb3I6ICNlYmViZjQ7Cn0KCmNsb3VkZmxhcmUtYXBwW2FwcC1pZD0iYS1iZXR0ZXItYnJvd3NlciJdIGE6aG92ZXIsCmNsb3VkZmxhcmUtYXBwW2FwcC1pZD0iYS1iZXR0ZXItYnJvd3NlciJdIGE6YWN0aXZlIHsKICBjb2xvcjogI2RiZGJlYjsKfQoKY2xvdWRmbGFyZS1hcHBbYXBwLWlkPSJhLWJldHRlci1icm93c2VyIl0gY2xvdWRmbGFyZS1hcHAtY2xvc2UgewogIGRpc3BsYXk6IGJsb2NrOwogIGN1cnNvcjogcG9pbnRlcjsKICBmb250LXNpemU6IDEuNWVtOwogIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICByaWdodDogLjRlbTsKICB0b3A6IC4zNWVtOwogIGhlaWdodDogMWVtOwogIHdpZHRoOiAxZW07CiAgbGluZS1oZWlnaHQ6IDE7Cn0KCmNsb3VkZmxhcmUtYXBwW2FwcC1pZD0iYS1iZXR0ZXItYnJvd3NlciJdIGNsb3VkZmxhcmUtYXBwLWNsb3NlOmFjdGl2ZSB7CiAgLXdlYmtpdC10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTsKICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpOwp9CgpjbG91ZGZsYXJlLWFwcFthcHAtaWQ9ImEtYmV0dGVyLWJyb3dzZXIiXSBjbG91ZGZsYXJlLWFwcC1jbG9zZTpob3ZlciB7CiAgb3BhY2l0eTogLjllbTsKICBjb2xvcjogI2ZmZjsKfQo="></head>
+<body class="">
+<div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="./Home_files/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+<div class="preloader loaded">
+	<div class="preloader-body">
+		<div class="cssload-container">
+			<div class="cssload-speeding-wheel"></div>
+		</div>
+		<p>Loading...</p>
+	</div>
+</div>
+<div class="page animated" style="animation-duration: 500ms;">
+	<!--========================================================
+														HEADER
+	=========================================================-->
+	<header class="section page-header">
+		<!--RD Navbar-->
+		<div class="rd-navbar-wrap" style="height: 143px;">
+			<nav class="rd-navbar rd-navbar-classic rd-navbar-original rd-navbar-static" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+
+				<div class="rd-navbar-main-outer">
+					<div class="rd-navbar-main">
+						<!--RD Navbar Panel-->
+						<div class="rd-navbar-panel">
+							<!--RD Navbar Toggle-->
+							<button class="rd-navbar-toggle toggle-original" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+							<!--RD Navbar Brand-->
+							<div class="rd-navbar-brand">
+								<!--Brand--><a class="brand" href="https://livedemo00.template-help.com/wt_55434/index.html"> <img src="./Home_files/logo-default.png" alt=""></a>
+							</div>
+						</div>
+						<div class="rd-navbar-main-element">
+							<div class="rd-navbar-nav-wrap toggle-original-elements">
+								<ul class="rd-navbar-nav">
+									<li class="rd-nav-item active"><a class="rd-nav-link" href="https://livedemo00.template-help.com/wt_55434/index.html">Home</a>
+									</li>
+									<li class="rd-nav-item rd-navbar--has-dropdown rd-navbar-submenu"><a class="rd-nav-link" href="https://livedemo00.template-help.com/wt_55434/index-1.html">About</a><span class="rd-navbar-submenu-toggle"></span>
+										<ul class="rd-menu rd-navbar-dropdown">
+											<li class="rd-dropdown-item"><a class="rd-dropdown-link" href="https://livedemo00.template-help.com/wt_55434/#">About</a>
+											</li>
+											<li class="rd-dropdown-item rd-navbar--has-dropdown rd-navbar-submenu"><a class="rd-dropdown-link" href="https://livedemo00.template-help.com/wt_55434/#">Services</a><span class="rd-navbar-submenu-toggle"></span>
+												<ul class="rd-menu rd-navbar-dropdown">
+													<li class="rd-dropdown-item"><a class="rd-dropdown-link" href="https://livedemo00.template-help.com/wt_55434/#">Gallery</a>
+													</li>
+													<li class="rd-dropdown-item"><a class="rd-dropdown-link" href="https://livedemo00.template-help.com/wt_55434/#">Blog</a>
+													</li>
+													<li class="rd-dropdown-item"><a class="rd-dropdown-link" href="https://livedemo00.template-help.com/wt_55434/#">Contacts</a>
+													</li>
+												</ul>
+											</li>
+											<li class="rd-dropdown-item"><a class="rd-dropdown-link" href="https://livedemo00.template-help.com/wt_55434/#">Gallery</a>
+											</li>
+											<li class="rd-dropdown-item"><a class="rd-dropdown-link" href="https://livedemo00.template-help.com/wt_55434/404.html">404</a>
+											</li>
+											<li class="rd-dropdown-item"><a class="rd-dropdown-link" href="https://livedemo00.template-help.com/wt_55434/search-results.html">Search Results</a>
+											</li>
+										</ul>
+									</li>
+									<li class="rd-nav-item"><a class="rd-nav-link" href="https://livedemo00.template-help.com/wt_55434/index-2.html">Services</a>
+										
+									</li>
+									<li class="rd-nav-item"><a class="rd-nav-link" href="https://livedemo00.template-help.com/wt_55434/index-3.html">Gallery</a>
+									</li>
+									<li class="rd-nav-item"><a class="rd-nav-link" href="https://livedemo00.template-help.com/wt_55434/index-4.html">Human Resources</a>
+									</li>
+									<li class="rd-nav-item"><a class="rd-nav-link" href="https://livedemo00.template-help.com/wt_55434/index-5.html">Contacts</a>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+
+	<!--========================================================
+														CONTENT
+	=========================================================-->
+	<section class="section swiper-container swiper-slider swiper-slider-1 swiper-container-horizontal swiper-container-fade" data-loop="true" data-autoplay="5500" data-simulate-touch="false" data-slide-effect="fade">
+		<div class="swiper-wrapper text-center" style="transition-duration: 0ms;"><div class="swiper-slide context-dark swiper-slide-duplicate swiper-slide-duplicate-active" data-slide-bg="images/page-1_slide03.jpg" style="background-image: url(&quot;images/page-1_slide03.jpg&quot;); background-size: cover; width: 1903px; transform: translate3d(0px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="2">
+				<div class="swiper-slide-caption section-md">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-7 col-md-12 col-sm-12">
+								<div class="jumbotron">
+									<h2>
+										Natural
+										resources
+										for your
+										needs
+									</h2>
+
+									<p>
+										We provide a variety of essential natural resources
+									</p>
+									<a href="https://livedemo00.template-help.com/wt_55434/#" class="button">
+										Read more
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide context-dark swiper-slide-duplicate-next" data-slide-bg="images/page-1_slide01.jpg" style="background-image: url(&quot;images/page-1_slide01.jpg&quot;); background-size: cover; width: 1903px; transform: translate3d(-1903px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="0">
+				<div class="swiper-slide-caption section-md">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-7 col-md-12 col-sm-12 ">
+								<div class="jumbotron">
+									<h2>
+										Trusted
+										mining
+										industry
+										leader
+									</h2>
+
+									<p>
+										Mining company with 60+ years of experience
+									</p>
+									<a href="https://livedemo00.template-help.com/wt_55434/#" class="button">
+										Read more
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide context-dark swiper-slide-prev" data-slide-bg="images/page-1_slide02.jpg" style="background-image: url(&quot;images/page-1_slide02.jpg&quot;); background-size: cover; width: 1903px; transform: translate3d(-3806px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="1">
+				<div class="swiper-slide-caption section-md">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-7 col-md-12 col-sm-12 ">
+								<div class="jumbotron">
+									<h2>
+										Cutting
+										edge
+										mining
+										technology
+									</h2>
+
+									<p>
+										Integrating innovative mineral production cycle
+									</p>
+									<a href="https://livedemo00.template-help.com/wt_55434/#" class="button">
+										Read more
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide context-dark swiper-slide-active" data-slide-bg="images/page-1_slide03.jpg" style="background-image: url(&quot;images/page-1_slide03.jpg&quot;); background-size: cover; width: 1903px; transform: translate3d(-5709px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="2">
+				<div class="swiper-slide-caption section-md">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-7 col-md-12 col-sm-12">
+								<div class="jumbotron">
+									<h2>
+										Natural
+										resources
+										for your
+										needs
+									</h2>
+
+									<p>
+										We provide a variety of essential natural resources
+									</p>
+									<a href="https://livedemo00.template-help.com/wt_55434/#" class="button">
+										Read more
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="swiper-slide context-dark swiper-slide-duplicate swiper-slide-next" data-slide-bg="images/page-1_slide01.jpg" style="background-image: url(&quot;images/page-1_slide01.jpg&quot;); background-size: cover; width: 1903px; transform: translate3d(-7612px, 0px, 0px); opacity: 0; transition-duration: 0ms;" data-swiper-slide-index="0">
+				<div class="swiper-slide-caption section-md">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-7 col-md-12 col-sm-12 ">
+								<div class="jumbotron">
+									<h2>
+										Trusted
+										mining
+										industry
+										leader
+									</h2>
+
+									<p>
+										Mining company with 60+ years of experience
+									</p>
+									<a href="https://livedemo00.template-help.com/wt_55434/#" class="button">
+										Read more
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div></div>
+		<!--Swiper Pagination-->
+		<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span></div>
+		<!--Swiper Navigation-->
+		<div class="swiper-button-prev fa-angle-left"></div>
+		<div class="swiper-button-next fa-angle-right"></div>
+	</section>
+	<section class="section-xl bg-primary text-center text-lg-left context-dark">
+		<div class="container">
+			<div class="row row-50 wow fadeIn" style="visibility: hidden; animation-name: none;">
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="thumbnail thumbnail4">
+						<h2 class="thumbnail-title">
+							Professional <br> Services
+						</h2>
+						<figure class="thumbnail-img">
+							<img src="./Home_files/page-1_img01.jpg" alt="">
+						</figure>
+						<div class="caption">
+							<h4 class="white">
+								<a href="https://livedemo00.template-help.com/wt_55434/#">Reliable Mining Services</a>
+							</h4>
+							<p>
+								We provide professional, multidisciplinary services to support all aspects of mine development, exploration, and feasibility.
+							</p>
+							<a href="https://livedemo00.template-help.com/wt_55434/#" class="button button-white button-md">
+								Read more
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="thumbnail thumbnail4">
+						<h2 class="thumbnail-title">
+							Natural <br> Resources
+						</h2>
+						<figure class="thumbnail-img">
+							<img src="./Home_files/page-1_img02.jpg" alt="">
+						</figure>
+						<div class="caption">
+							<h4 class="white">
+								<a href="https://livedemo00.template-help.com/wt_55434/#">Delivering Required Resources</a>
+							</h4>
+							<p>
+								Mining industry provides a wide range of natural resources including metals, coal, oil shale, gemstones, limestone, chalk etc.
+							</p>
+							<a href="https://livedemo00.template-help.com/wt_55434/#" class="button button-white  button-md">
+								Read more
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="thumbnail thumbnail4">
+						<h2 class="thumbnail-title">
+							Featured <br> projects
+						</h2>
+						<figure class="thumbnail-img">
+							<img src="./Home_files/page-1_img03.jpg" alt="">
+						</figure>
+						<div class="caption">
+							<h4 class="white">
+								<a href="https://livedemo00.template-help.com/wt_55434/#">Making an Impact on Mankind</a>
+							</h4>
+							<p>
+								The projects that we work on help mankind develop and thrive. Feel free to take a look at our latest projects in our portfolio.
+							</p>
+							<a href="https://livedemo00.template-help.com/wt_55434/#" class="button button-white  button-md">
+								Read more
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="section-xl bg-default">
+		<div class="container">
+			<div class="row row-50 justify-content-lg-between">
+				<div class="col-lg-6 col-sm-12 col-xl-5 fadeInLeft wow" style="visibility: hidden; animation-name: none;">
+					<h2 class="text-decorate">
+						About Us
+					</h2>
+					<h4>
+						A Few Words About Our Mining Company
+					</h4>
+					<div class="text-block">
+						<p>
+							Mining is an industry-leading mining company, focused on gold exploration and production worldwide. The company has five producing mines and two early stage exploration properties.
+						</p>
+						<p>
+							Founded in 1950 and publicly traded since 1955, Mining is headquartered in Atlanta, GE. We have approximately 24,680 employees and contractors, with the majority working at managed operations in the United States, Australia, Ghana, Peru, and Suriname.
+						</p>
+						<p>
+							Our company is a leader in value creation and the only precious metal producer listed in the S&amp;P 500 index. Our purpose - to create value and improve lives through sustainable and responsible mining – is guided by five core values: safety, integrity, sustainability, inclusion, and responsibility. We are proud to have been named the mining industry leader in overall sustainability by the Dow Jones Sustainability World Index in 2015, 2016 and 2017.
+						</p>
+						<p>
+							Our philosophy is to operate mines safely by promoting a deeply-rooted value-based culture, leveraging mining skills developed over the company’s long history, and by innovating new practices.
+						</p>
+						<a href="https://livedemo00.template-help.com/wt_55434/#" class="button button-primary">
+							Read more
+						</a>
+					</div>
+					
+				</div>
+				<div class="col-lg-6 col-sm-12  fadeInRight wow" style="visibility: hidden; animation-name: none;">
+					<h2 class="jumbo-h2">
+						60+ Years of
+						experience
+					</h2>
+					<img src="./Home_files/page-1_img04.jpg" alt="">
+
+					<h4>
+						Providing the Nation with Vital Resources Since 1950
+					</h4>
+
+					<p>
+						With over 60 years of experience, our mining company is now a partner for numerous industrial companies and enterprises all over the world.
+					</p>
+					<p>
+						We work to supply metalworking, chemical, construction, and other industries with the resources and materials they need. If you require reliable mining solutions that provide high-quality natural resources, we are ready to help you.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="parallax-container" data-parallax-img="images/parallax01.jpg"><div class="material-parallax parallax"><img src="./Home_files/parallax01.jpg" alt="" style="display: block;"></div>
+		<div class="parallax-content section-xl context-dark">
+			<div class="container wow fadeIn" style="visibility: hidden; animation-name: none;">
+				<h2 class="text-decorate">
+					our projects
+				</h2>
+
+				<div class="tabs-custom tabs-horizontal tabs-corporate" id="tabs-1">
+					<ul class="nav nav-tabs">
+						<li class="nav-item" role="presentation"><a class="nav-link active" href="https://livedemo00.template-help.com/wt_55434/#tabs-1-1" data-toggle="tab">Completed</a></li>
+						<li class="nav-item" role="presentation"><a class="nav-link" href="https://livedemo00.template-help.com/wt_55434/#tabs-1-2" data-toggle="tab">In progress</a></li>
+						<li class="nav-item" role="presentation"><a class="nav-link" href="https://livedemo00.template-help.com/wt_55434/#tabs-1-3" data-toggle="tab">Coming soon</a></li>
+						
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane fade show active" id="tabs-1-1" data-lightgallery="group">
+							<div class="row row-30">
+								<div class="col-lg-4 col-md-6 ">
+									<div class="project-item">
+										<a href="https://livedemo00.template-help.com/wt_55434/images/page-4_img02_original.jpg" data-lightgallery="item" class="project-img">
+											<img src="./Home_files/page-1_img05.jpg" alt="">
+										</a>
+										<div class="project-caption">
+											<div class="project-title">
+												<a href="https://livedemo00.template-help.com/wt_55434/#">Dickinson Iron Ore Mine</a>
+											</div>
+											<div class="stats white">
+												<span class="views"> 23</span>
+												<span class="comments"> 42</span>
+												<span class="likes"> 14</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 ">
+									<div class="project-item">
+										<a href="https://livedemo00.template-help.com/wt_55434/images/page-1_img06_original.jpg" data-lightgallery="item" class="project-img">
+											<img src="./Home_files/page-1_img06.jpg" alt="">
+										</a>
+										<div class="project-caption">
+											<div class="project-title">
+												<a href="https://livedemo00.template-help.com/wt_55434/#">Mining Consultancy</a>
+											</div>
+											<div class="stats white">
+												<span class="views"> 23</span>
+												<span class="comments"> 42</span>
+												<span class="likes"> 14</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="project-item">
+										<a href="https://livedemo00.template-help.com/wt_55434/images/page-4_img01_original.jpg" data-lightgallery="item" class="project-img">
+											<img src="./Home_files/page-1_img07.jpg" alt="">
+										</a>
+										<div class="project-caption">
+											<div class="project-title">
+												<a href="https://livedemo00.template-help.com/wt_55434/#">Midland Phosphate Mine</a>
+											</div>
+											<div class="stats white">
+												<span class="views"> 23</span>
+												<span class="comments"> 42</span>
+												<span class="likes"> 14</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="tabs-1-2" data-lightgallery="group">
+							<div class="row row-30">
+								
+								<div class="col-lg-4 col-md-6 ">
+									<div class="project-item">
+										<a href="https://livedemo00.template-help.com/wt_55434/images/page-1_img06_original.jpg" data-lightgallery="item" class="project-img">
+											<img src="./Home_files/page-1_img06.jpg" alt="">
+										</a>
+										<div class="project-caption">
+											<div class="project-title">
+												<a href="https://livedemo00.template-help.com/wt_55434/#">Mining Consultancy</a>
+											</div>
+											<div class="stats white">
+												<span class="views"> 23</span>
+												<span class="comments"> 42</span>
+												<span class="likes"> 14</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="project-item">
+										<a href="https://livedemo00.template-help.com/wt_55434/images/page-4_img01_original.jpg" data-lightgallery="item" class="project-img">
+											<img src="./Home_files/page-1_img07.jpg" alt="">
+										</a>
+										<div class="project-caption">
+											<div class="project-title">
+												<a href="https://livedemo00.template-help.com/wt_55434/#">Midland Phosphate Mine</a>
+											</div>
+											<div class="stats white">
+												<span class="views"> 23</span>
+												<span class="comments"> 42</span>
+												<span class="likes"> 14</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 ">
+									<div class="project-item">
+										<a href="https://livedemo00.template-help.com/wt_55434/images/page-4_img02_original.jpg" data-lightgallery="item" class="project-img">
+											<img src="./Home_files/page-1_img05.jpg" alt="">
+										</a>
+										<div class="project-caption">
+											<div class="project-title">
+												<a href="https://livedemo00.template-help.com/wt_55434/#">Dickinson Iron Ore Mine</a>
+											</div>
+											<div class="stats white">
+												<span class="views"> 23</span>
+												<span class="comments"> 42</span>
+												<span class="likes"> 14</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="tabs-1-3" data-lightgallery="group">
+							<div class="row row-30">
+								
+								<div class="col-lg-4 col-md-6">
+									<div class="project-item">
+										<a href="https://livedemo00.template-help.com/wt_55434/images/page-4_img01_original.jpg" data-lightgallery="item" class="project-img">
+											<img src="./Home_files/page-1_img07.jpg" alt="">
+										</a>
+										<div class="project-caption">
+											<div class="project-title">
+												<a href="https://livedemo00.template-help.com/wt_55434/#">Midland Phosphate Mine</a>
+											</div>
+											<div class="stats white">
+												<span class="views"> 23</span>
+												<span class="comments"> 42</span>
+												<span class="likes"> 14</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 ">
+									<div class="project-item">
+										<a href="https://livedemo00.template-help.com/wt_55434/images/page-4_img02_original.jpg" data-lightgallery="item" class="project-img">
+											<img src="./Home_files/page-1_img05.jpg" alt="">
+										</a>
+										<div class="project-caption">
+											<div class="project-title">
+												<a href="https://livedemo00.template-help.com/wt_55434/#">Dickinson Iron Ore Mine</a>
+											</div>
+											<div class="stats white">
+												<span class="views"> 23</span>
+												<span class="comments"> 42</span>
+												<span class="likes"> 14</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6 ">
+									<div class="project-item">
+										<a href="https://livedemo00.template-help.com/wt_55434/images/page-1_img06_original.jpg" data-lightgallery="item" class="project-img">
+											<img src="./Home_files/page-1_img06.jpg" alt="">
+										</a>
+										<div class="project-caption">
+											<div class="project-title">
+												<a href="https://livedemo00.template-help.com/wt_55434/#">Mining Consultancy</a>
+											</div>
+											<div class="stats white">
+												<span class="views"> 23</span>
+												<span class="comments"> 42</span>
+												<span class="likes"> 14</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="parallax-container context-dark" data-parallax-img="images/parallax02.jpg"><div class="material-parallax parallax"><img src="./Home_files/parallax02.jpg" alt="" style="display: block;"></div>
+		<div class="parallax-content section-xl">
+			<div class="container fadeIn wow" style="visibility: hidden; animation-name: none;">
+				<h2 class="text-decorate">
+					company presentation
+				</h2>
+
+				<a class="project-img" data-lightgallery="item" href="https://vimeo.com/37582125">
+					<img class="noscale" src="./Home_files/video.jpg" alt="">
+					
+				</a>
+
+			</div>
+		</div>
+		
+	</section>
+	
+	<section class="bg-default section-lg">
+		<div class="container">
+			<h3 class="text-decorate">
+				Get in Touch
+			</h3>
+
+			<form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="contact" method="post" action="https://livedemo00.template-help.com/wt_55434/bat/rd-mailform.php" novalidate="novalidate">
+				<div class="row row-30">
+					<div class="col-sm-6 col-lg-4">
+						<div class="form-wrap">
+							<label class="form-label rd-input-label" for="contact-name">Your name</label>
+							<input class="form-input form-control-has-validation form-control-last-child" id="contact-name" type="text" name="name" data-constraints="@Required"><span class="form-validation"></span>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-4">
+						<div class="form-wrap">
+							<label class="form-label rd-input-label" for="contact-email">E-Mail</label>
+							<input class="form-input form-control-has-validation form-control-last-child" id="contact-email" type="email" name="email" data-constraints="@Required @Email"><span class="form-validation"></span>
+						</div>
+					</div>
+					<div class="col-sm-12 col-lg-4">
+						<div class="form-wrap">
+							<label class="form-label rd-input-label" for="contact-phone">Phone</label>
+							<input class="form-input form-control-has-validation form-control-last-child" id="contact-phone" type="text" name="phone" data-constraints="@Required @PhoneNumber"><span class="form-validation"></span>
+						</div>
+					</div>
+					<div class="col-12">
+						<div class="form-wrap">
+							<label class="form-label rd-input-label" for="contact-message">Message</label>
+							<textarea class="form-input form-control-has-validation form-control-last-child" id="contact-message" name="message" data-constraints="@Required"></textarea><span class="form-validation"></span>
+						</div>
+					</div>
+					<div class="col-12">
+						<div class="form-button group-sm text-center text-lg-right">
+							<button class="button button-primary button-lg" type="submit">Submit</button>
+						</div>
+					</div>
+				</div>
+			</form>
+			
+		</div>
+	</section>
+	
+	<!--========================================================
+													FOOTER
+=========================================================-->
+	<footer class="bg-default">
+		<div class="container wow fadeInUp" style="visibility: hidden; animation-name: none;">
+			<div class="row row-50">
+				<div class="col-lg-3 col-md-6 ">
+					<h3 class="text-decorate">
+						Overview
+					</h3>
+
+					<ul class="link-list">
+						<li><a href="https://livedemo00.template-help.com/wt_55434/#">Company overview</a></li>
+						<li><a href="https://livedemo00.template-help.com/wt_55434/#">Mining services</a></li>
+						<li><a href="https://livedemo00.template-help.com/wt_55434/#">Projects</a></li>
+						<li><a href="https://livedemo00.template-help.com/wt_55434/#">Human resources</a></li>
+						<li><a href="https://livedemo00.template-help.com/wt_55434/#">Investors</a></li>
+						<li><a href="https://livedemo00.template-help.com/wt_55434/#">Contacts</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3 class="text-decorate">
+						Archive
+					</h3>
+
+					<ul class="link-list">
+						<li><a href="https://livedemo00.template-help.com/wt_55434/#">May 2019</a></li>
+						<li><a href="https://livedemo00.template-help.com/wt_55434/#">April 2019</a></li>
+						<li><a href="https://livedemo00.template-help.com/wt_55434/#">March 2019</a></li>
+						<li><a href="https://livedemo00.template-help.com/wt_55434/#">June 2019</a></li>
+						<li><a href="https://livedemo00.template-help.com/wt_55434/#">July 2019</a></li>
+						<li><a href="https://livedemo00.template-help.com/wt_55434/#">January 2019</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3 class="text-decorate">
+						Contact Us
+					</h3>
+					<address class="addr1">
+						<dl>
+							<dt>
+								Freephone:
+							</dt>
+							<dd><a href="tel:#">+1 800 559 6580</a></dd>
+							<dt>
+								Telephone:
+							</dt>
+							<dd><a href="tel:#">+1 959 603 6035</a></dd>
+							<dt>
+								FAX:
+							</dt>
+							<dd><a href="tel:#">+1 504 889 9898</a></dd>
+							<dt class="mail">
+								E-mail:
+							</dt>
+							<dd>
+								<a href="mailto:#">mail@demolink.org</a>
+							</dd>
+						</dl>
+					</address>
+
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3 class="text-decorate">
+						Location
+					</h3>
+
+					<address class="addr1">
+						8901 Marmora Road<br>
+						Glasgow, DO4 89GR.
+					</address>
+
+					<p>
+						<a href="https://livedemo00.template-help.com/wt_55434/#">Get Directions</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="container">
+				<div class="row row-30">
+					<div class="col-md-6">
+						<p class="rights">
+							Mining © <span class="copyright-year">2020</span> •
+							<a href="https://livedemo00.template-help.com/wt_55434/index-6.html">Privacy Policy</a>
+							
+						</p>
+					</div>
+					<div class="col-md-6 text-md-right">
+						<ul class="list-inline">
+							<li class="list-inline-item"><a href="https://livedemo00.template-help.com/wt_55434/#" class="icon icon-sm fa-pinterest"></a></li>
+							<li><a href="https://livedemo00.template-help.com/wt_55434/#" class="icon icon-sm  fa-twitter"></a></li>
+							<li><a href="https://livedemo00.template-help.com/wt_55434/#" class="icon icon-sm fa-facebook"></a></li>
+						</ul>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</footer>
+</div>
+
+<div class="snackbars" id="form-output-global"></div>
+<script src="./Home_files/core.min.js"></script>
+<script src="./Home_files/script.js"></script>
+
